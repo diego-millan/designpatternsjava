@@ -9,6 +9,6 @@ public class IPI implements Tax {
     }
 
     public double calculate() {
-        return value * 0.2;
+        return this.value * 0.2;
     }
 }
