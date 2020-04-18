@@ -9,10 +9,8 @@
         <module name="DesignPatternsJava" />
       </profile>
     </annotationProcessing>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="DesignPatternsJava" options="" />
-    </option>
+    <bytecodeTargetLevel>
+      <module name="DesignPatternsJava" target="1.11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
