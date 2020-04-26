@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f09aa668-2db6-456f-8c8d-30fa64408800" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignPatternsJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignPatternsJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +43,7 @@
       <recent name="patterns.state" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WeatherStationTest.whenChangeWeatherThenUpdateDisplays">
+  <component name="RunManager" selected="JUnit.AerialSectionTest.whenAddThreeSectionsThenTheyMustSumFlightPrices">
     <configuration name="NodeSearchApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patterns.state.NodeSearchApp" />
       <module name="DesignPatternsJava" />
@@ -73,26 +70,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in DesignPatternsJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AerialSectionTest.whenAddThreeSectionsThenTheyMustSumFlightPrices" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatternsJava" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.composite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="patterns.composite" />
+      <option name="MAIN_CLASS_NAME" value="patterns.composite.AerialSectionTest" />
+      <option name="METHOD_NAME" value="whenAddThreeSectionsThenTheyMustSumFlightPrices" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NodeTest.searchNodeAdjacents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in DesignPatternsJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatternsJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="patterns.state.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="patterns.state" />
-      <option name="MAIN_CLASS_NAME" value="patterns.state.NodeTest" />
-      <option name="METHOD_NAME" value="searchNodeAdjacents" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AerialSectionTest.whenAddThreeSectionsThenTheyMustSumFlightPrices" />
         <item itemvalue="JUnit.WeatherStationTest.whenChangeWeatherThenUpdateDisplays" />
         <item itemvalue="Application.NodeSearchApp" />
         <item itemvalue="JUnit.All in DesignPatternsJava" />
         <item itemvalue="Application.NodeTest" />
-        <item itemvalue="JUnit.NodeTest.searchNodeAdjacents" />
       </list>
     </recent_temporary>
   </component>
@@ -137,10 +134,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="768" y="214" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1587312141065">
+    <state x="768" y="214" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1587929341749">
       <screen x="0" y="339" width="1920" height="676" />
     </state>
-    <state x="768" y="214" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/1920.312.1366.768/0.339.1920.676@0.339.1920.676" timestamp="1587312141065" />
+    <state x="768" y="214" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/1920.312.1366.768/0.339.1920.676@0.339.1920.676" timestamp="1587929341749" />
     <state x="738" y="264" width="424" height="484" key="FileChooserDialogImpl" timestamp="1587236825856">
       <screen x="0" y="339" width="1920" height="676" />
     </state>
