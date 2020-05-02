@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f09aa668-2db6-456f-8c8d-30fa64408800" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/proxy/dao/CacheDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/proxy/dao/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/patterns/proxy/domain/Identifiable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +39,8 @@
       <recent name="patterns.state" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="patterns.adapter.exception" />
+      <recent name="patterns.adapter.domain" />
       <recent name="patterns.proxy" />
       <recent name="patterns.state" />
     </key>
@@ -141,6 +140,10 @@
       <screen x="0" y="339" width="1920" height="676" />
     </state>
     <state x="768" y="214" width="374" height="585" key="#com.intellij.ide.util.MemberChooser/1920.312.1366.768/0.339.1920.676@0.339.1920.676" timestamp="1588447445860" />
+    <state x="480" y="168" width="950" height="676" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1588450343040">
+      <screen x="0" y="339" width="1920" height="676" />
+    </state>
+    <state x="480" y="168" width="950" height="676" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1920.312.1366.768/0.339.1920.676@0.339.1920.676" timestamp="1588450343040" />
     <state x="738" y="264" width="424" height="484" key="FileChooserDialogImpl" timestamp="1587236825856">
       <screen x="0" y="339" width="1920" height="676" />
     </state>
@@ -185,6 +188,10 @@
       <screen x="0" y="339" width="1920" height="676" />
     </state>
     <state x="693" y="267" width="554" height="500" key="extract.method.dialog/1920.312.1366.768/0.339.1920.676@0.339.1920.676" timestamp="1587313818837" />
+    <state x="623" y="221" width="672" height="678" key="search.everywhere.popup" timestamp="1588449451227">
+      <screen x="0" y="339" width="1920" height="676" />
+    </state>
+    <state x="623" y="221" width="672" height="678" key="search.everywhere.popup/1920.312.1366.768/0.339.1920.676@0.339.1920.676" timestamp="1588449451227" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
