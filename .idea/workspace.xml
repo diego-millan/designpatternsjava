@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f09aa668-2db6-456f-8c8d-30fa64408800" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/factory/dao/DAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/factory/dao/ProductDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/factory/domain/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/factory/service/AbstractService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/patterns/factory/service/ProductService.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +36,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -29,6 +53,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -45,7 +70,7 @@
       <recent name="patterns.state" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WindowTest.whenTryInstanceMoreThanOnceThenReturnSameObject">
+  <component name="RunManager" selected="JUnit.FactoryTest.whenInstantiateNewFactoryHomemThenCreateNewObject">
     <configuration name="NodeSearchApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="patterns.state.NodeSearchApp" />
       <module name="DesignPatternsJava" />
@@ -75,10 +100,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in DesignPatternsJava" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FactoryTest.whenInstantiateNewFactoryHomemThenCreateNewObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DesignPatternsJava" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patterns.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="patterns" />
+      <option name="MAIN_CLASS_NAME" value="patterns.FactoryTest" />
+      <option name="METHOD_NAME" value="whenInstantiateNewFactoryHomemThenCreateNewObject" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FactoryTest.whenInstantiateNewFactoryHomemThenCreateNewObject" />
         <item itemvalue="JUnit.WindowTest.whenTryInstanceMoreThanOnceThenReturnSameObject" />
         <item itemvalue="JUnit.AerialSectionTest.whenAddThreeSectionsThenTheyMustSumFlightPrices" />
         <item itemvalue="JUnit.WeatherStationTest.whenChangeWeatherThenUpdateDisplays" />
         <item itemvalue="Application.NodeSearchApp" />
-        <item itemvalue="JUnit.All in DesignPatternsJava" />
       </list>
     </recent_temporary>
   </component>
@@ -137,6 +170,17 @@
       <updated>1587233132119</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="768" y="214" width="374" height="585" key="#com.intellij.ide.util.MemberChooser" timestamp="1588447445860">
